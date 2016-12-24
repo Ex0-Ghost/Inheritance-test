@@ -2,6 +2,7 @@ package test;
 
 public class Main {
 
+	@SuppressWarnings("static-access")
 	public static void main(String[] args) {
 		SuperClass sup = new SubClass();
 		SubClass sub = new SubClass();
