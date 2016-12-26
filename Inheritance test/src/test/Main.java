@@ -16,7 +16,7 @@ public class Main {
 		System.out.println("==Testing Super Class reference Type==");
 		System.out.println(sup.var);//prints the hidden superclass field because we're using superclass reference type
 		sup.inherited();
-		sup.overridden();
+		sup.overridden();// virtual method- invocation 
 		sup.hidden();//invokes superclass method because superclass reference type is used
 		// this causes compile time error, maybe compiler\jvm recognizes members by reference type
 		// sup.SubMethod()
