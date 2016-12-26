@@ -4,8 +4,9 @@ public class Main {
 
 	@SuppressWarnings("static-access")
 	public static void main(String[] args) {
-		SuperClass sup = new SubClass();
+		
 		SubClass sub = new SubClass();
+		SuperClass sup = sub; //now sup is just pointing to the same object as sub does
 		/*
 		//this gives same result
 		SubClass sub = new SubClass();

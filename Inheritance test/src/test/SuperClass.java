@@ -4,10 +4,9 @@ public class SuperClass {
 	int var = 1;//this is hidden in subclass can be called in subclass object using superclass reference type
 
 	String name = "SUPER";
-static String sname = "SUPER";
  static void hidden(){//this method is hidden in sublcass can be called statically superclass (or in superclass objects),
 	 //can also be called in subclass objects if superclass reference type is used.Why?
-	 System.out.println("this is Super class Hidden Method" + sname);
+	 System.out.println("this is Super class Hidden Method");
  }
 void inherited() {//this method is inherited but not overridden in subclass
 	/*
